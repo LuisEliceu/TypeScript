@@ -1,11 +1,11 @@
 {
   "name": "typescript",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "lite-server",
+    "watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,10 @@
   "homepage": "https://github.com/LuisEliceu/TypeScript#readme",
   "dependencies": {
     "lite-server": "^2.6.1",
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
     "typescript": "^4.7.4"
-  }
+  },
+  "description": ""
 }
